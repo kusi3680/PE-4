@@ -18,7 +18,7 @@ public:
 	TicTacToe() {
 		CreateBoard(); 
 	}
-
+  
 	/**
 		Displays the board. 
 	*/
@@ -29,6 +29,7 @@ public:
 			}
 		}
 	}
+
 private: 
 	string board_[3][3];
 
