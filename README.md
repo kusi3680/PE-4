@@ -1,6 +1,6 @@
 # PE4
 ## Contributors 
 Parikshit Bhetwal \
-Dennis Lim \
+Dennis Lim 
 ## Description 
 This is our programming excercise four for CSCI 3010. 
