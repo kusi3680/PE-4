@@ -18,6 +18,15 @@ public:
 		CreateBoard(); 
 	}
 
+	void DisplayBoard(){
+		for(int i = 0; i < 3; ++i){
+			for(int j = 0; j < 3; ++j){
+				std::cout << board_[i][j];
+			}
+			std::cout << "\n";
+		}
+	}
+
 private: 
 	string board_[3][3];
 
