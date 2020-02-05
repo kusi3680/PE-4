@@ -28,6 +28,25 @@ public:
 				cout << board_[i][j] << " \n"[j == 2]; 
 			}
 		}
+		cout << endl; 
+	}
+
+	/**
+		Prompt the user for a location to play, 
+		then return that choice. 
+		@return pos The position to play at. 
+	*/
+	int GetPlayerChoice() {
+		// Provide instructions 
+		cout << "Instructions: Let the top left corner be position 0" <<  endl; 
+		cout << "So, the position to the right of it is position 1 and so forth" << endl; 
+		// Prompt for input 
+		cout << "Enter a position: "; 
+		// Take input 
+		int pos; 
+		cin >> pos; 
+
+		return pos; 
 	}
 
 private: 
@@ -53,4 +72,4 @@ private:
 int main() {
 	// Calls CreateBoard() function
 	TicTacToe game; 
-}
+}	
