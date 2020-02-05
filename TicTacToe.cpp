@@ -30,14 +30,6 @@ public:
 		}
 	}
 
-	Position GetPlayerChoice(){
-		int row, col;
-		std::cout << "Please enter the row: \n" ;
-		std::cin >> row;
-		std::cout << "Please enter the col: \n";
-		std::cin >> col;
-		return Position{row, col};
-	}
 	
   /**
     Places a marker at position pos with the marker. 
