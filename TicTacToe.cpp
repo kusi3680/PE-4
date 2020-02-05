@@ -1,5 +1,6 @@
 /**
 Parikshit Bhetwal
+Dennis Lim 
 PE 4
 This is the implementation file for 
 a game of Tic Tac Toe.  
@@ -17,13 +18,15 @@ public:
 	TicTacToe() {
 		CreateBoard(); 
 	}
-
-	void DisplayBoard(){
-		for(int i = 0; i < 3; ++i){
-			for(int j = 0; j < 3; ++j){
-				std::cout << board_[i][j];
+  
+	/**
+		Displays the board. 
+	*/
+	void DisplayBoard() {
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				cout << board_[i][j] << " \n"[j == 2]; 
 			}
-			std::cout << "\n";
 		}
 	}
 
