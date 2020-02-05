@@ -9,19 +9,6 @@ a game of Tic Tac Toe.
 #include <iostream>
 using namespace std; 
 
-// enum class TilesSquare = {X_title, O_title};
-enum class Title {X, O, blank};
-
-// used to track positions on the board
-struct Position {
-	int row;
-	int col;
-
-	bool operator==(const Position &other) {
-		return row == other.row && col == other.col;
-	}
-};
-
 class TicTacToe {
 public:
 	/**
