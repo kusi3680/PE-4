@@ -49,6 +49,58 @@ public:
 		return pos; 
 	}
 
+	
+  /**
+    Places a marker at position pos with the marker. 
+  */
+  void PlaceMarker(int pos, string mark) {
+    if(pos == 0) {
+      board_[0][0] = mark; 
+      return; 
+    }
+
+    else if(pos == 1) {
+      board_[0][1] = mark; 
+      return; 
+    }
+
+    else if(pos == 2) {
+      board_[0][2] = mark; 
+      return; 
+    }
+
+    else if(pos == 3) {
+      board_[1][0] = mark;
+      return; 
+    }
+
+    else if(pos == 4) {
+      board_[1][1] = mark;
+      return; 
+    }
+
+    else if(pos == 5) {
+      board_[1][2] = mark;
+      return; 
+    }
+
+    else if(pos == 6) {
+      board_[2][0] = mark;
+      return; 
+    }
+
+    else if(pos == 7) {
+      board_[2][1] = mark;
+      return; 
+    }
+
+    else if(pos == 8) {
+      board_[2][2] = mark;
+      return; 
+    }
+
+  }
+
 private: 
 	string board_[3][3];
 
