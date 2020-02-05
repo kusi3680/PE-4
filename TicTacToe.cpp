@@ -19,6 +19,16 @@ public:
 		CreateBoard(); 
 	}
 
+	/**
+		Displays the board. 
+	*/
+	void DisplayBoard() {
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				cout << board_[i][j] << " \n"[j == n-1]; 
+			}
+		}
+	}
 private: 
 	string board_[3][3];
 
