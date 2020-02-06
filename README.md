@@ -9,6 +9,8 @@ To compile and create an executable, type the following in a terminal:
 ```
 make
 ```
+Then, click the executable. 
+
 For positions: (row, col) 
 1) let (0, 0) be position 0
 2) let (0, 1) be position 1
