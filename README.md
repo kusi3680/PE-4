@@ -1,7 +1,7 @@
 # PE4
 ## Contributors 
-Parikshit Bhetwal: [pbhetwal](https://github.com/pbhetwal) \
-Dennis Lim: [deli4631](https://github.com/deli4631)
+(Person 1) Parikshit Bhetwal: [pbhetwal](https://github.com/pbhetwal) \
+(Person 2) Dennis Lim: [deli4631](https://github.com/deli4631)
 ## Description 
 This is our programming excercise four for CSCI 3010. 
 ## Instructions to run program
