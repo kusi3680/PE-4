@@ -117,7 +117,7 @@ private:
 		// Loop through 
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
-				// Set as empty string 
+				// Set as '_' string 
 				board_[i][j] = '_'; 
 			}
 		}
