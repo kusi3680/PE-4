@@ -1,0 +1,78 @@
+_ _ _
+_ _ _
+_ _ _
+
+Player 1's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 0
+X _ _
+_ _ _
+_ _ _
+
+Player 2's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 1
+X O _
+_ _ _
+_ _ _
+
+Player 1's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 2
+X O X
+_ _ _
+_ _ _
+
+Player 2's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 3
+X O X
+O _ _
+_ _ _
+
+Player 1's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 4
+X O X
+O X _
+_ _ _
+
+Player 2's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 5
+X O X
+O X O
+_ _ _
+
+Player 1's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 6
+X O X
+O X O
+X _ _
+
+Player 2's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 7
+X O X
+O X O
+X O _
+
+Player 1's Turn
+Instructions: Let the top left corner be position 0
+So, the position to the right of it is position 1 and so forth
+Enter a position: 8
+X O X
+O X O
+X O X
+
+
+[Process completed]
