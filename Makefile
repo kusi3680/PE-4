@@ -2,7 +2,7 @@
 # Dennis Lim 
 # PE 4
 # This is the make file for 
-# programming excercise four.
+# programming exercise four.
 
 # Compiler 
 CXX = g++ 
